@@ -7,3 +7,12 @@ This OMZ plugin sets your linked PHP executable through Homebrew by checking the
 ## Installation
 
 `git clone https://github.com/yardinternet/zsh-php-detector ~/.oh-my-zsh/custom/plugins/php-version-detector`
+
+In `.zshrc`:
+
+```
+plugins=(
+...
+php-version-detector
+)
+```
